@@ -38,7 +38,6 @@
 .swiper {
     width: 700px;
     height: 300px;
-    
 }
 
 .swiper-slide{
@@ -47,6 +46,7 @@
     flex-direction: column;
     gap: 18px;
     justify-content: center;  
+    align-items: center;
 }
 
 .swiper-button-prev,
@@ -93,9 +93,15 @@
     }
 
     .swiper {
-        width: 300px;
-        height: 329px;
+        width: 200px;
+        height: 150px;
+    }
 
+    .swiper-slide{
+        text-align: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
     }
 
 }
