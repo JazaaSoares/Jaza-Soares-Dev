@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/sobre.css">
-    <link rel="stylesheet" href="styles/curriculo.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/sobre.css">
+    <link rel="stylesheet" href="/styles/curriculo.css">
+    <link rel="stylesheet" href="/styles/qualificações.css">
+    <link rel="stylesheet" href="/styles/projects.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <title>Jaza Soares | Full-Stack Developer</title>
@@ -29,10 +32,10 @@
                     <a href="#curriculo">Curriculo</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#portifolio">Portifólio</a>
+                    <a href="#projects">Portifólio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contato">Contato</a>
+                    <a href="#contacts">Contato</a>
                 </li>
                 
             </ul>
@@ -73,9 +76,7 @@
 
     <main id = "content">
         <section id="home">
-            <div class="shape">
-                
-            </div>
+            
 
             <div id="cta">
                 <h1 class="title">
@@ -179,18 +180,89 @@
             </div>
 
             <h2 class="section-title">Qualificações</h2>
-            <h3 class="section-subtitle">Meus cursos, fomações e experiências</h3>
+            <h3 class="section-subtitle">Minhas fomações e experiências</h3>
+           
+            <h2 class="div-title">
+                <span>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                Formações</h2> 
             <div id="formacoes">
-                <dic id="formacao">
+                             
+                <ul>
+                    <li id="formacao">
+                        <h2 class="formacao-local">E.E.E.P. Deputado José Maria Melo</h2>
+                        <h3 class="formacao-cargo">Técnico em Edificações</h3>
+                        <p class="formacao-ano">
+                            <span>
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </span>
+                            até 2018
+                        </p>
+                    </li>
+
+                    <li id="formacao">
+                        <h2 class="formacao-local">Digital Innovation One</h2>
+                        <h3 class="formacao-title">Primeiros passos com .NET</h3>
+                        <p class="ano">
+                            <span>
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </span>
+                            até 2022</p>
+                    </li>
+
+                    <li id="formacao">
+                        <h2 class="formacao-local">Udemy</h2>
+                        <h3 class="formacao-title">Java COMPLETO Programação Orientada a Objetos + Projetos</h3>
+                        <p class="ano">
+                            <span>
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </span>
+                            até 2025</p>
+                    </li>
+
+                    <li id="formacao">
+                        <h2 class="formacao-local">Universidade Federal do Ceará - Campus Crateús</h2>
+                        <h3 class="formacao-title">Sistemas de informação
+                        </h3>
+                        <p class="ano">
+                            <span>
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </span>
+                            até 2027</p>
+                    </li>
+                </ul>
+            </div>
+            <h2 class="div-title">
+                <span>
+                    <i class="fa-solid fa-briefcase"></i>
+                </span>
+                Experiências</h2>
+            <div id="formacoes">
+                <ul>
                     
-                </dic>
-            </div>
-            <div id="cursos">
+                    <ul>
+                    <li id="formacao">
+                        <h2 class="formacao-local">Secretaria de Infraestrutura e Deselvolvimento Social</h2>
+                        <h3 class="formacao-cargo">Técnico em Edificações</h3>
+                        <p class="formacao-ano">
+                            <span>
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </span>
+                            2018</p>
+                    </li>
 
-            </div>
-
-            <div id="xp">
-
+                    <li id="formacao">
+                        <h2 class="formacao-local">Fitbank</h2>
+                        <h3 class="formacao-title">Analista de integração
+                        </h3>
+                        <p class="ano">
+                            <span>
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </span>
+                            2023</p>
+                    </li>
+                </ul>
             </div>
                 
         </section>
@@ -199,13 +271,19 @@
         <section id="projects">
                 <h2 class="section-title">Meus Projetos</h2>
                 <p id="loading">Carregando...</p>
-                <div id="list-projects">
-
-                </div>
+                <div id="list-projects"></div>
         </section>
+        
+    </main>
 
-        <section id="contacts">
-            <h2 class="section-title">Contatos</h2>
+    <footer>
+        <img src="/images/wave.svg">
+
+        <div id="footer_items">
+            <span id="copyrigth">
+                &copy Feito com amor, por mim 
+                <i class="fa-solid fa-heart"></i>
+            </span>
             <div class="social_media_buttons">
                 <a href="">
                     <i class="fa-brands fa-whatsapp"></i>
@@ -220,9 +298,11 @@
                     <i class="fa-brands fa-github"></i>
                 </a>
             </div>
-        </section>
-        
-    </main>
+        </div>
+
+    </footer>
     <script src="script.js"></script>
+    <script src="repositorioGit.js"></script>
 </body>
+
 </html>
