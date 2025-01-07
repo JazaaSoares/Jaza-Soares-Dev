@@ -10,8 +10,8 @@ const swiper = new Swiper('.swiper', {
     grabCursor: true,
     navigation:{
         nextE1: ".swiper-button-next",
-        prevE1: ".swiper-button-prev"
-
+        prevE1: ".swiper-button-prev",
+        clickable: true
     },
     pagination:{
         el:".swiper-pagination",
