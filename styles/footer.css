@@ -13,10 +13,7 @@ footer{
     color: #1d1d1d;
     font-weight: 500;
 }
-#cta_buttons a{
-    text-decoration: none;
-    color: #1d1d1d;
-}
+
 
 @media screen and (max-width: 600px){
     #footer_items{

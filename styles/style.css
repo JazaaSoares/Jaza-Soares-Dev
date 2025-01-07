@@ -61,10 +61,12 @@ background-color: #c5b2f9 ;
 .section-title{
     color: #B197FC;
     font-size: 2.1875rem;
+    text-align: center;
 }
 
 .section-subtitle{
     font-size: 1.563rem;
+    text-align: center;
 }
 
 .div-title{

@@ -7,7 +7,7 @@
 }
 
 #formacoes{
-    width: 600px;
+    width: 50%;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -23,3 +23,10 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width: 1170px){
+    formacoes{
+        flex-wrap:wrap;
+        justify-content: center; 
+    }
+    
+}
