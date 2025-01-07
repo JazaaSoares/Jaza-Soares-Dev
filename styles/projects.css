@@ -1,0 +1,27 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#list-projects{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-projects a{
+    text-decoration: none;
+    color: #1d1d1d ;
+}
+
+#list-projects a:hover{
+    color: #B197FC;
+    transition: .4s;
+    cursor: pointer;
+}
