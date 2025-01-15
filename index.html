@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/qualificações.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contacts.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <title>Jaza Soares | Full-Stack Developer</title>
@@ -41,9 +42,10 @@
                 
             </ul>
 
-            <button class="btn-default">
-                Fale comigo!
-            </button>
+            <div id="cta_buttons">
+                <a href="#contacts" class="btn-default">
+                    Fale comigo!
+                </a>
 
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -309,6 +311,24 @@
                 <h2 class="section-title">Meus Projetos</h2>
                 <p id="loading">Carregando...</p>
                 <div id="list-projects"></div>
+        </section>
+
+        <section id="contacts">
+            <h2 class="section-title">Contate-me</h2>
+
+            <div id="contact">
+                <div id="contact-type">
+                    <h2 class="contact-type-name"><i class="fa-solid fa-phone" style="color: #9f88e0;"></i> Celular</h2>
+                    <p class="contact-description">(88) 9 9665-6444</p>
+                </div>
+                <div id="contact-type">
+                    <h2 class="contact-type-name"><i class="fa-solid fa-envelope" style="color: #9f88e0;"></i> Email</h2>
+                    <p class="contact-description">jazasoares03@gmail.com</p>
+                </div>
+                
+            </div>
+
+           
         </section>
         
     </main>
