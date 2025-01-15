@@ -73,8 +73,6 @@
     font-size: 14px;
 }
 
-
-
 @media screen and (max-width: 600px){
     #skills{
         flex-wrap:wrap;

@@ -23,7 +23,13 @@
     border-radius: 200px;
 }
 
+#sobre-mim .sobre-m{
+    display: flex;
+    gap: 24px;
+}
+
 #description{
+    flex-direction: column;
     color: #434343;
     text-align: center;
     font-size: 1.25rem;
@@ -32,10 +38,10 @@
     gap: 18px;
     width: 50%;
     padding: 20px;
- 
     position: relative;
-    border-radius: 30px;
 }
+
+
 
 @media screen and (max-width: 1170px){
     #sobre-mim .banner2{
