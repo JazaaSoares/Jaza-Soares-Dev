@@ -1,0 +1,32 @@
+#qualificacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+#formacoes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+#formacao{
+    list-style: none;
+}
+
+#formacao .formacao-local{
+    color: #B197FC;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1170px){
+    formacoes{
+        flex-wrap:wrap;
+        justify-content: center; 
+    }
+    
+}

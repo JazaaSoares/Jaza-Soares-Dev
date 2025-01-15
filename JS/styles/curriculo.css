@@ -1,0 +1,104 @@
+#curriculo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#skills{
+    background-color: #f9fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 100px;
+    gap: 50px;
+    padding: 32px 8%;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 25%;
+    padding: 20px;
+}
+
+.skill-title{
+    align-items: center;
+    text-align: center;
+}
+
+.swiper {
+    width: 700px;
+    height: 300px;
+}
+
+.swiper-slide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;  
+    align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    color: #B197FC;
+    border: 1px solid #f9fafb;
+    border-radius: 100%;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-prev::after{
+    content: '\f053';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.swiper-button-next::after{
+    content: '\f054';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px){
+    #skills{
+        flex-wrap:wrap;
+        justify-content: center; 
+    }
+
+    #skill{
+        width: calc(50% - 12px);
+        box-shadow: none;
+
+    }
+
+    .skill-title{
+        font-size: 0.75rem;
+    }
+
+    .swiper {
+        width: 200px;
+        height: 150px;
+    }
+
+    .swiper-slide{
+        text-align: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+}
