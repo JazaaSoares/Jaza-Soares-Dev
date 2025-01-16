@@ -27,3 +27,11 @@
     cursor: pointer;
 
 }
+
+.dark#list-projects a{
+    color: #fff9ea;
+}
+
+.dark#list-projects a:hover{
+    color: #B197FC;
+}

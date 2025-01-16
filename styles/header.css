@@ -49,6 +49,15 @@ header{
     display: flex;
 }
 
+#mode-icon{
+    display: flex;
+    align-items: center;
+    color: #B197FC;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
 @media screen and (max-width: 1170px){
     #nav_lista,
     #navbar .btn-default{
@@ -81,4 +90,26 @@ header{
         list-style: none;
         text-align: center;
     }
+
+    
+    
+    .dark#mobile_nav_lista .nav-item a{
+        color: #fff9ea;
+    }
+
+
+
+}
+
+.dark#navbars{
+    background-color: #1d1d1d;
+    
+}
+
+.dark#nav_lista .nav-item a{
+    color: #fff9ea;
+}
+
+.dark#mobile_btn{
+    color: #B197FC;
 }

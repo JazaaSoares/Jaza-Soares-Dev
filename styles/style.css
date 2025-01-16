@@ -82,3 +82,10 @@ background-color: #c5b2f9 ;
     font-size: 1.563rem;
     margin-top: 32px;
 }
+
+
+.dark#all{
+    background-color: #1d1d1d;
+    color: #fff9ea;
+}
+
