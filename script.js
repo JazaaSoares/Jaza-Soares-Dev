@@ -9,7 +9,7 @@ $(document).ready(function(){
         const pdfUrl = 'arquivos/Currículo - Jaza Soares.pdf'; 
         const link = document.createElement('a'); 
         link.href = pdfUrl; 
-        link.download = 'arquivo.pdf'; 
+        link.download = 'CV Jaza.pdf'; 
         link.click(); 
     });
 
